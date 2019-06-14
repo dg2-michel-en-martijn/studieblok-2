@@ -21,7 +21,40 @@ template.slice(0,2) == "tem";
 template.length == 8;
 templateString.search(template) == 11;
 
-/* en nog meer */ 
+// numbers
+let int1 = 654;
+const int2 = 92;
+var int3 = 10.95656;
+//number methodes
+int1.toString() === '654';
+int3.toExponential(2) === 10.96e+0;
+int3.toFixed(2) === 10.95
+int3.toPrecision(10) === 10.9565600000;
+
+//arrays
+let arr1 = ['hoi', 100, {naam:'martijn'}, 'dit is een string];
+const arr2 = [12, 41, 2, 100];
+//array methodes
+arr2.foreach((item, index) => {console.log(`the integer at index ${index} is ${item}`)});
+arr1.concat(arr2) === ['hoi', 100, {naam:'martijn'}, 'dit is een string', 12, 41, 2, 100];
+arr2.sort() === [2, 12, 41, 100];
+
+//booleans
+const booleantrue = true;
+var booleanfalse = false;
+
+//loops
+for( int i=0; i < 10; i++) {
+	//do iets...
+}
+
+while ( booleantrue ) {
+	//do iets...
+}
+
+do {
+	//doe iets minimaal 1 keer
+} while ( booleanfalse );
 ```
 
 ## wat hebben wij geleerd tijdens dit studieblok?
