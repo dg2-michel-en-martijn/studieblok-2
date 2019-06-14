@@ -38,5 +38,6 @@ tijdens dit studieblok hebben we de volgende dingen geleerd:
 * booleans
 * de volgende loops
 	* for(let i=0; i< j; i++) {}
+	* arr.foreach( (item, index) => {/* do iets */} )
 	* while (true) {}	
 	* do {} while (true)
