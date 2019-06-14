@@ -37,16 +37,6 @@ tijdens dit studieblok hebben we de volgende dingen geleerd:
 	* array sort
 * booleans
 * de volgende loops
-	* 
-	```javascript 
-	for(let i=0; i< j; i++) {}
-	```
-	* 
-	```javascript 
-	while (true) {}
-	```
-	
-	* 
-	```javascript 
-	do {
-	} while (true)
+	* for(let i=0; i< j; i++) {}
+	* while (true) {}	
+	* do {} while (true)
