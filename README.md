@@ -32,11 +32,11 @@ int3.toFixed(2) === 10.95
 int3.toPrecision(10) === 10.9565600000;
 
 //arrays
-let arr1 = ['hoi', 100, {naam:'martijn'}, 'dit is een string];
+let arr1 = ['hoi', 100, 'dit is een string];
 const arr2 = [12, 41, 2, 100];
 //array methodes
 arr2.foreach((item, index) => {console.log(`the integer at index ${index} is ${item}`)});
-arr1.concat(arr2) === ['hoi', 100, {naam:'martijn'}, 'dit is een string', 12, 41, 2, 100];
+arr1.concat(arr2) === ['hoi', 100, 'dit is een string', 12, 41, 2, 100];
 arr2.sort() === [2, 12, 41, 100];
 
 //booleans
