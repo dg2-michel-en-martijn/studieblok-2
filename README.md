@@ -1,5 +1,5 @@
 # Studieblok-2
-Dit is de repository voor domiein C level 2: studieblok 2
+Dit is de repository voor domein C level 2: studieblok 2
 
 ## Wat kun je hier vinden?
 In deze repository kun je de opdrachten voor domein C level3: studieblok 2
